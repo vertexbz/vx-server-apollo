@@ -1,0 +1,13 @@
+{
+  "mode": "file",
+  "theme": "markdown",
+  "ignoreCompilerErrors": true,
+  "target": "ES6",
+  "excludeNotExported": true,
+  "excludePrivate": true,
+  "exclude": [
+    "./src/index.ts",
+    "./src/utils.ts"
+  ],
+  "hideGenerator": true
+}
