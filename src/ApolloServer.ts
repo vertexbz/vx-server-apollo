@@ -66,7 +66,7 @@ export class ApolloServer extends BaseApolloServer {
 
                 if (!config.subscriptions.onConnect) {
                     // @ts-ignore
-                    config.subscriptions = config.subscriptions.onConnect = context.wsContext;
+                    config.subscriptions.onConnect = context.wsContext;
                 }
             }
         }
