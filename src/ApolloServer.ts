@@ -82,6 +82,6 @@ export class ApolloServer extends BaseApolloServer {
             app.use(this._options.path, playgroundEnhancer(this._playgroundInject));
         }
 
-        super.applyMiddleware({ ...this._options, app });
+        super.applyMiddleware({ ...this._options, app, cors: false });
     }
 }
